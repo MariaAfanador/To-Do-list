@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Organizer</title>
+</head>
+
+<body>
+  <div class="title">TO DO!</div>
+  <div class="filter">
+    <input type="text" class="filter__input" name="filter" placeholder="Find tasks" />
+    <button class="filter__button">Search</button>
+  </div>
+
+  <main class="lists">
+
+    <div class="list">
+      <div class="list__title--working">Working on it</div>
+      <input type="text" class="list__input" name="add" placeholder="Type.." />
+      <button class="list__button">Add</button>
+      <ul class="task-list"></ul>
+      <div class="list__button--container">
+        <button class="list__archiveButton">Archive</button>
+        <button class="list__removeButton">Remove</button>
+      </div>
+    </div>
+
+    <div class="list">
+      <div class="list__title--pending">Pending</div>
+      <input type="text" class="list__input" name="add" placeholder="Type.." />
+      <button class="list__button">Add</button>
+      <ul class="task-list"></ul>
+      <div class="list__button--container">
+        <button class="list__archivedButton">Archive</button>
+        <button class="list__removeButton">Remove</button>
+      </div>
+    </div>
+
+    <div class="list">
+      <div class="list__title--completed">Completed</div>
+      <input type="text" class="list__input" name="add" placeholder="Type.." />
+      <button class="list__button">Add</button>
+      <ul class="task-list"></ul>
+      <div class="list__button--container">
+        <button class="list__archivedButton">Archive</button>
+        <button class="list__removeButton">Remove</button>
+      </div>
+    </div>
+
+    <div class="list">
+      <div class="list__title--archived">Archived</div>
+      <input type="text" class="list__input" name="add" placeholder="Type.." />
+      <button class="list__button">Add</button>
+      <ul class="task-list"></ul>
+      <div class="list__button--container">
+        <button class="list__archivedButton">Archive</button>
+        <button class="list__removeButton">Remove</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
